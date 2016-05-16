@@ -10,7 +10,8 @@
   },
   "repository": "https://github.com/ljcl/hubot-apple-music-embed.git",
   "keywords": [
-    "hubot-script"
+    "hubot-script",
+    "apple-music"
   ],
   "scripts": {
     "build": "webpack --progress --colors",
