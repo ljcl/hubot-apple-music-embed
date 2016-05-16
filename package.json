@@ -1,6 +1,6 @@
 {
   "name": "hubot-apple-music-embed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return apple music embed links when apple music links are posted.",
   "main": "dist/index.js",
   "license": "MIT",
