@@ -6,8 +6,6 @@ const queryString = require('query-string')
 const getUrls = require('get-urls')
 const _ = require('lodash')
 
-// var message = `you should check out these links from digitalism this is a good starter track: https://itun.es/au/isRUab?i=1085977741 and this is the whole album: https://itun.es/au/isRUab`
-
 function resolveLink (link, cb) {
   request({ method: 'HEAD', url: link, followAllRedirects: true }, (err, response) => {
     if (!err) {
